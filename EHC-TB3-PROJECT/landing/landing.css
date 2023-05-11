@@ -1,0 +1,152 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 80px;
+    width: 82px;
+    background: transparent;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.landing{
+    background-image: url('https://media.istockphoto.com/id/1436380618/photo/happy-young-couple-using-a-digital-tablet-during-breakfast-at-home.jpg?s=612x612&w=0&k=20&c=ypEDQHAa7m6aXr1gN--UAItfPtyGma0Z2HL6mRKo3_0=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100%; */
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.landing-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: inherit;
+    z-index: 1;
+}
+.header{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, .8);
+}
+.header img {
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+}
+.navbar a{
+    font-size: 18px;
+    color: #bfb8ad;
+    font-weight: 550;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: .4s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #F6511D;
+}
+/* Homepage */
+.homepage{
+    z-index: 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 65px;
+}
+.homepage h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #00A6ED;
+    letter-spacing: 12px;
+    /* font-weight: 700; */
+}
+/* .homepage > * {
+    margin: 10px 0px;
+} */
+.homepage .button{
+    all: unset;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.homepage .button:hover {
+    background-color: #F6511D;
+}
+.homepage .button a {
+    color: white;
+    text-decoration: none;
+}
+.Values{
+    background-color: #999c9a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    color: black;
+    padding: 20px 5% ;
+}
+.grid-container{
+    display: grid;
+    gap: 40px 25px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+  place-items: center;
+}
+.Values h2{
+    display: grid;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    font-size: 35px;
+    color: #1260cc;
+    text-align: center;
+    text-decoration: underline;
+} 
+.image{
+    height: 145px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 20px 20px;
+    place-content: center;
+}
+.imgA{
+    background-image: url('https://media.istockphoto.com/id/879952484/photo/blaming-you-anxious-man-judged-by-different-people-pointing-fingers-at-him-negative-human.jpg?s=612x612&w=0&k=20&c=RjLvCnzF9M1tHpYNpep3leja82DG9wNHOlGUyknQk4A=');
+    }
+    .imgL{
+        background-image: url('https://media.istockphoto.com/id/1349157403/photo/standing-out-from-the-crowd.jpg?s=612x612&w=0&k=20&c=acYjdcbX6w6JjYTJgMWc3V2qweLHFboZDEBWu8OfJOA=');
+    }
+    .imgQ{
+        background-image: url('https://media.istockphoto.com/id/1364946137/photo/businessman-holding-and-showing-the-best-quality-assurance-with-golden-five-stars-for.jpg?s=612x612&w=0&k=20&c=ewqI36IOI0FE9fQGEjhVrdR_4sAg77ICJJ2gZgZxH-0=');
+    }
+    .imgD{
+        background-image: url('https://media.istockphoto.com/id/1448698612/photo/diversity-hands-and-team-above-in-support-trust-and-unity-for-collaboration-agreement-or.jpg?s=612x612&w=0&k=20&c=gGqdVAEvyopmhqELxQ1tgrqXZkCmHWi5nCleGGDuHJU=');
+    }
+    .imgI{
+        background-image: url('https://media.istockphoto.com/id/1383479893/photo/shot-of-two-businesspeople-shaking-hands-at-work.jpg?s=612x612&w=0&k=20&c=OX2h7ACbtjPD0eV02JkYrnJNycHa2zrC8bcxum6xPxE=');
+    }
+    .imgP{
+    background-image: url('https://media.istockphoto.com/id/1323140489/photo/confident-young-asian-male-florist-owner-of-small-business-flower-shop-holding-potted-plant.jpg?s=612x612&w=0&k=20&c=ZniQ7nD7KC70Y_ihu3ENhP_CMqwZFIUoF-Uwn_kMSno=');
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
